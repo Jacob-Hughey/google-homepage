@@ -1,0 +1,76 @@
+div {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    height: 100%;
+    padding-bottom: 35px;
+}
+.wrapper {
+    min-height: calc(100vh - 263px);
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+.searchbar {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(255,255,255);
+}
+.searchbar input {
+    height: 44px;
+    width: 484px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255,255,255);
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.search-buttons {
+    text-align: center;
+    color: rgb(117,117,117);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    height: 36px;
+    line-height: 27px;
+}
+.google-logo-search {
+    margin-top: 175px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+    padding: 0px 10px;
+}
+.google-header {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 8px;
+    background-color: #ffffff;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.87);
+    
+}
+.right-side {
+    float: right;
+}
+.google-footer {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 8px;
+    background: #f2f2f2;
+    line-height: 40px;
+    height: 35px;
+    color: #666;
+    bottom: 0;
+    width: 100%;
+}
